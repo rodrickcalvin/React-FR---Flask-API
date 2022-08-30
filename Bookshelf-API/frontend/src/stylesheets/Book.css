@@ -1,0 +1,60 @@
+div.star {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../star-black.png');
+}
+
+div.star.active {
+    background-image: url('../star.png')
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../trash.png')
+}
+
+.rating {
+    display: flex;
+}
+
+.title {
+    padding: auto;
+    padding-top: 20%;
+    color: azure;
+    
+    
+}
+
+.book-container {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+
+.book { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author {
+    margin: 5px 0px;
+}
+
+.cover {
+    height: 225px;
+    width: 150px;
+    padding: 20px 15px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../cover.jpg')
+}
