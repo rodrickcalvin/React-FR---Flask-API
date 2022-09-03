@@ -30,7 +30,7 @@ const App = () => {
   const deleteBook = (id) => {
     if (window.confirm("Are you sure you want to delete the book?")) {
       $.ajax({
-        url: `/books/${id}`, //TODO: update request URL
+        url: `/books/${id}`,
         type: "DELETE",
         success: (result) => {
           getBooks();
